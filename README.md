@@ -1,37 +1,32 @@
-# Purpose of This Repo
+# NLP Learning Repository
 
-This repo is meant to be used to keep things organized during content development and act as the source of truth for all projects and exercises related to this course.
+This repository contains demonstrations and exercises for learning Natural Language Processing concepts, focusing on word embeddings and text analysis.
 
-## Folder Structure
+## Repository Structure
 
-### Lesson Folder
+### Demos
+- `embeddings.csv` - CSV file containing word embedding data
+- `L2-Demo-1.ipynb` - Lesson 2 Accessing Amazon Bedrock with Python
+- `L2-Demo-2.py` - Lesson 2 Model conversation with Python
+- `L3-Demo-1.ipynb` - Lesson 3 Creating Embeddings
+- `L3-Demo-2.ipynb` - Lesson 3 Working with Embeddings
+- `L3-Demo-3.ipynb` - Lesson 3 Embeddings for Document Retrieval
 
-This repo contains a folder for each `lesson` and one `project` folder.
+### Exercises
+- `Lesson-2-e1.ipynb` - Lesson 2 Exercise 1
+- `Lesson-2-e2.ipynb` - Lesson 2 Exercise 2
+- `Lesson-3-e1.ipynb` - Lesson 3 Exercise 1
+- `Lesson-3-e2.ipynb` - Lesson 3 Exercise 2
 
-Example
-```
-lesson-1-hello
-lesson-2-world
-lesson-3-foo
-lesson-4-bar
-project
-```
+### Utils
+- `amazon.txt` - Sample text data from Amazon
+- `Apollo13.txt` - Sample text data from Apollo 13
+- `prepare_embeddings.py` - Utility script for preparing word embeddings
+- `transcript.txt` - Sample transcript data
 
-Each `lesson` folder is named using the naming convention of `lesson-#-name-of-lesson`.
+## Prerequisites
 
-Example
-```
-lesson-1-hello
-```
-
-Four lesson folders have been provided as a template; However, you may need to add more or possibly use less than four depending on what is needed.
-
-If you require an additional lesson folder, you can make a copy of the folder and paste it into the root directory.
-
-### Exercises Folder
-
-Each `lesson` folder contains an `exercises` folder. This `exercises` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folder for information about folder structure.
-
-### Project Folder
-
-The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
+- Python 3.x
+- Jupyter Notebook
+- Required Python packages:
+    - boto3

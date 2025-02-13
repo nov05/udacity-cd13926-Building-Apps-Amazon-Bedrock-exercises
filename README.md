@@ -30,3 +30,13 @@ This repository contains demonstrations and exercises for learning Natural Langu
 - Jupyter Notebook
 - Required Python packages:
     - boto3
+
+
+<br>  
+<br>  
+<br> 
+
+# 👉 **Notes**  
+
+* [General notes](https://docs.google.com/document/d/1I1Lq7xzhUndvbDUCJWkhXUWlAcZJ_WwU6xp8nsR-CVY) (Google Docs)  
+* [Issues](https://gist.github.com/nov05/c35bdf4ccd4456c84083c2b879ac1407) (GitHub Gist)   

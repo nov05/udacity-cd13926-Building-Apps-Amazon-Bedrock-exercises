@@ -1,0 +1,5 @@
+{
+    "prompt": "Human: Write a short story about a robot learning to paint.\n\nAssistant:",
+    "max_tokens_to_sample": 500,
+    "temperature": 0.7
+}
